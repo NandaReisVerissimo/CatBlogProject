@@ -4,6 +4,107 @@
   box-sizing: border-box;
 }
 
+:root {
+  font-size: 62.5%;
+}
+
 body {
   font-family: 'Mulish', sans-serif;
+  font-size: 1.6rem;
+}
+
+header {
+  background-color: #065E7C;
+  height: 7.2rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3.0rem;
+
+  width: 100%;
+}
+
+
+.print {
+  width: 4.0rem;
+  height: 4.0rem;
+}
+
+.input-wrapper {
+  flex: 1;
+}
+
+.input-wrapper label {
+  width: 1px;
+  height: 1px;  
+  overflow: hidden;
+  position: absolute;
+}
+
+.input-wrapper input {
+  border-radius: 4px;
+  display: flex;
+  padding: 1.2rem 1.6rem 1.2rem 1.4rem;
+  align-items: center;
+  gap: 1.2rem;
+  
+  color: #FFF;
+  background: rgba(255, 255, 255, 0.20);
+  font-weight: 400;
+  border: none;
+
+  width: 100%;
+  
+}
+
+.input-wrapper input::placeholder {
+  color: #FFF;
+  opacity: 0.56;
+
+  font-size: 1.6rem;
+}
+.avatar {
+  border-radius: 50%;
+  width: 4.0rem;
+  height: 4.0rem;
+}
+
+main {
+  padding: 2.4rem 3.2rem;
+}
+
+main h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.content img {
+  background-color: #065E7C;
+  height: 3.0rem;
+  border-radius: 50%;
+  margin-top: .8rem;
+}
+
+.content p {
+  margin-top: 3.2rem;
+  margin-bottom: 3.2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6.4rem;
+  padding: 0.16rem;
+
+  background: #387E96;
+  color: #FFF;
+  font-weight: 600;
 }
