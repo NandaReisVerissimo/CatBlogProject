@@ -89,7 +89,7 @@ main h1 {
 .content >img:nth-child(1){
   width: 100%;
   border-radius: 0%;
-  height: 21.9rem;
+  height: auto;
   margin: 0;
 
 }
@@ -123,12 +123,6 @@ main h1 {
 .articles h1 {
   font-size: 2.4rem;
   font-weight: 700;
-
-  max-width: 38.2rem;
-  max-height: 8.4rem;
-
-  width: auto;
-  height: auto;
 
   padding: 0;
 
@@ -166,7 +160,11 @@ footer {
     display: grid;
     grid-template-columns: 2fr 1fr; 
     gap: 3.4rem;
-    margin: 0 3.0rem; 
+    margin: 4.4rem 3.0rem; 
+  }
+
+  .articles {
+    padding: 0;
   }
 
 }
